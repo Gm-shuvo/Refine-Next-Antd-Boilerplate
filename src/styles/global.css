@@ -1,0 +1,199 @@
+/* Global box-sizing and list-style reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+
+/* React-flow css */
+
+
+/* End React-flow css */
+
+
+/* Custom styles for Ant Design and React Flow components */
+
+.ant-drawer-body {
+  padding: 12px !important;
+}
+
+.ant-popover-inner-content {
+  white-space: nowrap !important;
+  padding: 8px 0 !important;
+  border-radius: 8px !important;
+}
+
+.ant-modal-content {
+  border-radius: 8px !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ant-modal {
+  width: 570px !important;
+}
+
+.ant-tabs-nav-list {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ant-space-item div {
+  display: flex;
+  align-items: center;
+}
+
+.ant-tabs-nav-wrap {
+  flex: none !important;
+}
+
+/* React Flow Node and Edge customizations */
+.react-flow__node-customNode {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  outline: none !important;
+}
+
+.react-flow__node-customNode:focus-visible,
+.react-flow__handle,
+.start-node,
+.end-node,
+.other-node,
+.condition-node {
+  outline: none !important;
+}
+
+.flow-builder-content {
+  min-height: 100vh;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Node specific styles */
+.start-node,
+.end-node {
+  height: 32px;
+  width: 120px;
+  border-radius: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #338aff; /* All start nodes */
+}
+
+.end-node {
+  background-color: #666; /* All end nodes */
+}
+
+.other-node,
+.condition-node {
+  width: 224px;
+  border-radius: 4px;
+  color: #666;
+  background: #e9e9e9;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.01);
+  display: flex;
+  flex-direction: column;
+}
+
+.other-node {
+  height: 118px;
+  padding: 16px;
+}
+
+.condition-node {
+  height: 44px;
+  padding: 12px 16px;
+}
+
+/* Styling for nodes in different states */
+.node-status-error {
+  box-shadow: 0 0 8px #ff4d4f !important;
+}
+
+.node-configuring {
+  box-shadow: 0 0 8px #338aff !important;
+}
+
+
+/* Chatbot CSS */
+.react-chatbot-kit-chat-container{
+  width: 350px !important;
+}
+
+.react-chatbot-kit-chat-bot-message{
+  margin-left: 0 !important;
+  height: auto !important;
+  text-emphasis: none !important;
+  text-wrap: wrap !important;
+
+}
+
+.react-chatbot-kit-user-chat-message{
+  margin-right: 0 !important;
+  height: auto !important;
+  text-emphasis: none !important;
+  text-wrap: wrap !important;
+  word-wrap: break-word !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+
+.react-chatbot-kit-chat-bot-message span{
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  text-align: left !important;
+  word-wrap: break-word !important;
+}
+
+.react-chatbot-kit-chat-message-container{
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+}
+
+.react-chatbot-kit-chat-bot-message-container{
+  align-items: baseline !important;
+  gap: 8px !important;
+}
+
+
+
+/* react-simple-chat */
+.rsc-input{
+  background: transparent;
+  border-top: .5px solid #adacac;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Browser specific scrollbar customization */
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #6d6d6d;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bdbcbc;
+  border-radius: 4px;
+}
+

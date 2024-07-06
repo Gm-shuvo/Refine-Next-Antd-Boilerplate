@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+.npm
+.yarn
+
+# Build outputs
+.next
+out/
+build/
+dist/
+
+# Version control
+.git
+.gitignore
+.svn
+.hg
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Configuration files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log
+yarn-error.log
